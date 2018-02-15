@@ -1,0 +1,94 @@
+
+
+body, html {
+  height: 100%;
+
+}
+
+body {
+  margin: 0;
+}
+
+.full-bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../media/got.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 1px;
+  box-sizing: border-box;
+  display: flex;
+
+
+}
+
+.poster-content {
+  background-color: rgba(0,0,0,0.6);
+  padding: 16px;
+  box-sizing: border-box;
+  margin: auto;
+  width: 650px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.poster-content header {
+  display: inline-block;
+}
+
+@font-face {
+  font-family: gameOfThrones;
+  src: url("../fonts/GameofThrones.woff") format("woff");
+}
+
+
+.poster-content header h1 {
+  color: #fff;
+  font-size: 48px;
+  margin: 16px 8px 0;
+  font-family: gameOfThrones;
+}
+.poster-content header h2 {
+  color: #ccc;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  margin-top: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 26px;
+
+}
+
+.poster-content iframe {
+  width: 100%;
+  height: 315px;
+  border: 2px solid #ddd;
+}
+
+.poster-content .release-date {
+  font-size 18px;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 8px;
+
+}
+
+#demo {
+  color: silver;
+  font-family: gameOfThrones;
+  font-size: 36px;
+  background-color: rgba(50,40,60,0.6);
+  padding: 16px;
+  box-sizing: border-box;
+  margin: auto;
+  width: 550px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+footer {
+  position: fixed;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
